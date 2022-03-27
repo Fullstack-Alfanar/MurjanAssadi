@@ -1,0 +1,51 @@
+.saba{
+    display: flex; justify-content: center;
+}
+
+
+.smalllist{ width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    border-style: solid;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    
+
+    }
+.big{ width: 1000px;
+        height: 500px;
+        border-radius: 15px;
+        border-style: solid; 
+        flex-direction: column;
+        text-align: center;
+     
+      
+    }
+.title {
+        
+       
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(230, 14, 114);
+        color: wh;
+       height: 50pt;}
+
+.listitems{
+    border-radius: 15px;
+        border-style: solid;
+    background-color: black;
+    width:180px;
+    height: 15px;
+    margin-bottom: 20px;
+
+}
+a{color: rgb(230, 14, 114);}
+.tecno{ border-radius: 15px;
+    border-style: solid;
+width: 70px;height: 100px;margin: 10px;
+}
+.dadtecno{display: flex;
+justify-content: center;
+}
+.imgtecno{border-radius: 15px;width: 60px;}
