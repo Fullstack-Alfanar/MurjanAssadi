@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="big">
+    <div><h1>Classroom management</h1></div>
+    <!-- //////////////////////////////////////// -->
+    <div class="inputt">
+        <input type="text" placeholder="enter the student name" id="Sname">
+        <input type="text" placeholder="enter the student score" id="Sscore">
+        <!-- <input type="submit" value="send" ondblclick="add()"> -->
+        <button ondblclick="additeam()">send</button>
+    </div>
+    <!-- ///////////////////////////////////////// -->
+    <div class="numavg">
+        <div class="numavg1">
+            <h3>number of students</h3>
+            <label id="numcount" ondblclick="additeam()"></label>
+        </div>
+        <div class="numavg1">
+            <h3>students average score</h3>
+            <label id="numavg" ondblclick="additeam()"></label>
+        </div>
+    </div>
+    <!-- /////////////////////////////////////////// -->
+    <div class="tablee">
+    <table class="table">
+        <thead>
+            <tr class="trtable">
+                
+                <div><td>Student Name</td></div>
+                <div><td>Student score</td></div>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+
+        </tbody>
+    </table>
+</div>
+</div>
+    <script src="/script/script_class19.js"></script>
+</body>
+</html>
