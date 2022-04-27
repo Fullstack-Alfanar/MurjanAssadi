@@ -1,0 +1,33 @@
+.big{
+    text-align: center;
+}
+
+.numavg{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.numavg1{
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    border-style: solid;
+}
+.tablee{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table{
+    
+    width: 400px;
+    border: 2px solid yellowgreen;
+}
+input{
+    border: 2px solid yellowgreen;
+}
+h1{
+    color: chocolate;
+}
